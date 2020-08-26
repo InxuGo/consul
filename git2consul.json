@@ -1,12 +1,20 @@
 {
   "version": "1.0",
-  "repos" : [{
-    "name" : "config",
-    "url" : "https://github.com/InxuGo/consul.git",
-    "branches" : ["master"],
-    "hooks": [{
-      "type" : "polling",
-      "interval" : "1"
-    }]
-  }]
+  "local_store": "D:/consul/config_center", 
+  "repos": [
+    {
+      "name": "config",
+      "url": "https://github.com/InxuGo/consul.git",
+      "include_branch_name": true,
+      "branches": [
+        "master"
+      ],
+      "hooks": [
+        {
+          "type": "polling",
+          "interval": "1"
+        }
+      ]
+    }
+  ]
 }
