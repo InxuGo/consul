@@ -2,7 +2,7 @@
   "version": "1.0",
   "repos" : [{
     "name" : "config",
-    "url" : "https://github.com/InxuGo/consul_kv.git",
+    "url" : "https://github.com/InxuGo/consul.git",
     "branches" : ["master"],
     "hooks": [{
       "type" : "polling",
